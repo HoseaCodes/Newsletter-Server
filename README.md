@@ -28,6 +28,13 @@ other dependencies used:
 
 Click this link here to go to [Newsletter-Server](https://newsletter-hoseacodes.herokuapp.com/)
 
+### API Used
+
+[Mail Chimp](https://mailchimp.com/developer/marketing/docs/fundamentals/)
+
+#### POST Request
+
+![POST](https://i.imgur.com/BHDdwwa.png)
 
 ### JavaScript Functions
 ![JS1](https://i.imgur.com/omdKaeG.png)
