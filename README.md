@@ -6,7 +6,7 @@
 This is a short template that uses the Mailchimp API to create a subscriber newsletter.
 
 ### Homepage
-![Homepage](https://i.imgur.com/VvcnvPu.png)
+![Homepage](https://i.imgur.com/8XiNmrv.png)
 
 ### Failed Page
 ![Failed](https://i.imgur.com/QgAM8TQ.png)
