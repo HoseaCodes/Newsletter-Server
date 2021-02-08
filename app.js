@@ -1,8 +1,8 @@
-require('dotenv').config()
 const express = require("express");
 const https = require("https")
 const bodyParser = require("body-parser");
-const api_key = process.env.MAILCHIMP_APIKEY
+
+require('dotenv').config()
 
 const app = express();
 const port = 3000;
@@ -35,10 +35,10 @@ app.post("/", function (req, res) {
     }
     const jsonData = JSON.stringify(data)
 
-    const url = `https://us7.api.mailchimp.com/3.0/lists/9ee7c7020a`
+    const url = `https://us7.api.mailchimp.com/3.0/lists/${process.env.MAILCHIMP_LIST_ID}`
     const options = {
         method: "POST",
-        auth: `hoseacodes:${api_key}`
+        auth: `hoseacodes:${process.env.MAILCHIMP_APIKEY}`
     }
     const request = https.request(url, options, function (response) {
         if (response.statusCode === 200) {
