@@ -1,6 +1,6 @@
 # [Newsletter-Server](https://newsletter-hoseacodes.herokuapp.com/)
 
-## Craeted by: Dominique Hosea
+## Created by: Dominique Hosea
 
 ### February 2021
 This is a short template that uses the Mailchimp API to create a subscriber newsletter.
